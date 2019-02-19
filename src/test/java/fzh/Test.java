@@ -7,7 +7,7 @@ public class Test {
 	@org.junit.Test
 	public void testRedis()throws Exception {
 		Jedis jedis=new Jedis("120.24.90.162",6379);
-		jedis.set("fzh", "Äã×îÅ£1212121");
+		jedis.set("fzh", "ï¿½ï¿½ï¿½ï¿½Å£12121211111111");
 		String string = jedis.get("fzh");
 		System.out.println("String ="+string);
 		jedis.close();
